@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: #FEC7D7 !important;
+}
+
+h2{
+    font-size: 24px;
+    margin-top: 2% !important;
+    line-height: 138% !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    margin-left: 200px !important;
+}
+
+.contacto{
+    width: 25%;
+    height: 16%;
+    margin: auto;
+    text-align: center;
+}    
+
+
+.nombre-usuario, .editar-cuenta{
+    font-size: 18px;
+}
+
+.usuario div{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+label{
+    padding: 12px 16px !important;
+
+}
+
+.especial{
+    width: 327px !important;
+    height: 35px !important;
+    padding: 12px 16px !important;
+    margin: auto !important;    
+    background:white !important;
+    border-radius: 4px !important;
+    border: 1px solid gray !important;
+}
+
+#guardar {
+    width: 327px;
+    height: 45px;
+    border-radius: 98px;
+    margin-top: 24px;
+    margin-left: 0px;
+    background: rgb(6, 6, 61);
+    color:#fff
+    
+}
+
+nav ul{     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 0px 24px;
+}
+
+form{
+    height: 400px;
+}
+
+@media (min-width: 375px) {
+
+    body{
+        background-color: black;
+    }
+
+}

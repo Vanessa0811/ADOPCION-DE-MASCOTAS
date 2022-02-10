@@ -1,0 +1,347 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEC7D7 !important;
+   
+}
+
+p{
+    color: grey;
+}
+
+/* PAGINA DE INICIO */
+
+h1{
+    margin-left: 250px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.titulo1{
+    margin-left: 0%;
+    font-size: 30px;
+
+}
+.container2{
+    margin-top: 30px;
+    margin-left: 250px;
+    font-size: 25px;
+    height: 70px;
+}
+
+.categoria{
+    margin-top: 5%;
+    margin-left: 90px;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-66{
+   
+    width: 350px;
+    height:400px;
+   margin-left: 140px;
+   padding: 20px;
+}
+
+.col-55{
+    
+    width: 350px;
+    height:400px;
+   margin-left: 45px;
+   padding: 20px; 
+}
+
+.carga-mascotas{  
+    margin-left: 200px;
+    width: 900px;
+    height: 1100px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+
+}
+
+.item{
+   margin-left: 20px;
+    padding: 30px;
+    width: 370px;
+    
+}
+
+.mis-favoritos{
+    height: auto;
+}
+
+.menu-mascotas{
+    position: fixed ;
+    top: 85% ;
+    width: 100% ;
+}
+
+/* DETALLE MASCOTA */
+
+.regresar{
+    margin-top: 24px;
+    margin-left: 270px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+}
+
+.content{
+    width: 62%;
+    margin-left: 225px;
+
+}
+
+:root {
+    --color-white: #FFFFFE;
+    --color-black: #0E172C;
+    --color-primary: #FEC7D7;
+    --color-secundary: #A786DF;
+    --color-tertiary: #D9D4E7;
+    --color-green: #85D1CE;
+    --color-blue: #91C1D7;    
+    --color-gray: #535353;    
+    --font-family: "Nunito";
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    list-style: none;     
+    padding: 0;
+};
+
+.img-responsive{
+    width: 375px;
+    height: 442px;    
+    position: absolute;
+}
+
+.regresar img{
+    position: relative;
+    transform: translate(60px, -180px);    
+    z-index: 1; 
+}
+
+main{
+    border-top-left-radius: 16px 16px;
+    border-top-right-radius: 16px 16px;       
+}
+
+.fila1{
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.nombre, .raza , .edad, .ubicacion, .contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.fila2{
+    height: 24px;
+}
+.fila5{
+    display: flex;
+    justify-content: space-around;
+}
+.fila5 ul{
+    width: 25%;
+    border-radius: 8px;
+    border: 3px solid var(--color-secundary);
+}
+
+.fila5 ul li{
+    align-self: center;    
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+}
+.contacto img{
+    border-radius: 50%;
+    border: 3px solid var(--color-green);
+}
+
+h3{
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+h4{
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+h5{
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+h6{
+   font-size: 11px !important; 
+}
+
+/* FAVORITOS */
+
+.mis-favoritos{
+    margin-left: 200px;
+    width: 900px;
+    height: 2000px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+
+}
+
+.item2{
+    margin-left: 20px;
+     padding: 30px;
+     width: 370px;
+     
+ }
+
+
+
+ @media (max-width: 375px){
+
+    * {
+        font-size: 15px;
+    }
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .container2{
+    margin-left: 10px;
+    }  
+    
+    h1{   
+    margin-left: 10px;
+    }
+
+    .categoria{
+        margin-top: 5%;
+        margin-left: 0px;
+        width: auto;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col-66{
+       
+        width: 156px;
+        height:80px;
+       margin-left: 10px;
+       padding: 0px;
+    }
+    
+    .col-55{
+        
+        width: 156px;
+        height:80px;
+       margin-left: 15px;
+       padding: 0px; 
+    }
+
+    .img1{
+        width: 156px;
+        height:80px; 
+
+    }
+
+    .carga-mascotas{  
+        margin-left: 15px;
+        width: 330px;
+        height: 548px;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    #hola{
+       margin-left: 0px;
+        padding: 0px;
+        width: 156px !important;
+        height: 250px !important;
+        
+    }
+
+    #hola1{
+        margin-left: 0px;
+        padding: 0px;
+        width: 156px !important;
+        height: 250px !important;  
+    }
+
+    .item{
+        margin-left: 5px;
+         padding: 5px;
+         width: 156px;
+        
+         
+     }
+
+     .mis-favoritos{
+        margin-left: 5px;
+        width: 400px;
+        height: 800px;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+    
+    }
+    
+    .item2{
+        margin-left: 15px;
+         padding: 5px;
+         width: 150px;
+         
+     }
+
+    #img22{
+    
+        width: 156px !important;
+        height: 250px !important;    
+    }
+
+}
+
+
+
+    
+
+
+    
+
+
+     
+
+
+
+
+
+
+
+
+

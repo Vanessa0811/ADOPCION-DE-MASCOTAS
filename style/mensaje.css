@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;  
+}
+
+body{
+    background-color: #FEC7D7 !important;
+}
+
+h2{
+    font-size: 15px;
+    margin-top: 2% !important;
+    line-height: 138% !important;
+    font-weight: 600 !important;
+    font-size: 50px !important;
+    margin-left: 200px !important;
+}
+
+main{
+    width: 88%;
+    display: flex;
+    margin-left: 250px;
+    
+          
+}
+
+
+.contacto{
+    display: flex;
+    align-items: center !important;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.contacto, .usuario {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;         
+    padding: 2%;
+}
+
+.contacto div, .contacto a, .mensaje div, .mensaje p {
+    margin: 0 !important;
+}
+
+.contacto img{
+    margin: 2%;
+}
+
+.nombre-usuario{
+    font-weight: bold !important;  
+}
+
+hr{
+   border: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black
+}
+
+.menu-mascotas{
+    
+    top: 85% ;
+    width: 100% ;
+    }
+  
+@media (max-width: 375px){
+
+        * {
+            font-size: 15px;
+        }
+    
+        body{
+            width: auto;
+            height: auto;
+        }
+    
+        .contacto{
+            width: 98%;
+            height: 150px;
+            margin-left: 0;
+            margin: 0;
+            padding-left: 0;
+        }
+
+        main{
+            width: 95%;
+            display: flex;
+            margin-left: 10px;
+            
+                  
+        }
+
+        h2{
+            font-size: 25px !important;
+            margin-left: 10px !important;
+
+        }
+
+}        

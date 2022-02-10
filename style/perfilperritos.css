@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    list-style: none; 
+    }
+
+body{
+    background-color: #FFFFFE !important
+}
+
+.regresar{
+    margin-top: 24px;
+    margin-left: 270px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+}
+
+.content{
+    width: 62%;
+    margin-left: 225px;
+
+}
+
+main{
+    border-top-left-radius: 16px 16px;
+    border-top-right-radius: 16px 16px;       
+}
+
+.fila1{
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.nombre, .raza , .edad, .ubicacion, .contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.fila2{
+    height: 24px;
+}
+.fila5{
+    display: flex;
+    justify-content: space-around;
+}
+.fila5 ul{
+    width: 25%;
+    border-radius: 8px;
+    border: 3px solid #A786DF ;
+}
+
+.fila5 ul li{
+    align-self: center;    
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+}
+.contacto img{
+    border-radius: 50%;
+    border: 3px solid #85D1CE ;
+}
+
+h3{
+    font-weight: bold !important;
+    font-size: 24px !important;
+}
+
+h4{
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+h5{
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+h6{
+   font-size: 11px !important; 
+}
+
+.mb-3{
+    width: 62% !important;
+    margin-left: 225px !important;
+}
+
+.historia{
+    width: 62% !important;
+    margin-left: 225px !important;
+}
+
+@media (max-width: 375px){
+
+    * {
+        font-size: 15px;
+    }
+
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .regresar{
+        margin-left: 15px;
+        
+    }
+
+    .content{
+        width: 90%;
+        margin-left: 5px;
+    
+    }
+
+    .historia{
+        width: 90% !important;
+        margin-left: 5px !important ;
+    }
+
+   .row, .mb-3{
+        width: auto !important;
+        margin-left: 0px !important ;
+    }
+    
+    .botoncontactar{
+        margin-left: 0px;
+    }
+
+    .col-8, .contacto{
+        width: auto !important;
+    
+    }
+
+    .imagenperfilp{
+        width: 100% !important;
+    }
+
+ }    
